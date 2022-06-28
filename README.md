@@ -40,6 +40,4 @@
 
 ## Reference
 * [Notion API](https://developers.notion.com/)
-* [YouTube](https://www.youtube.com/watch?v=4yHYrQ7_gKM&t=1662s)
-* [notion-talks/TalkController.java at master · danvega/notion-talks · GitHub](https://github.com/danvega/notion-talks/blob/master/src/main/java/dev/danvega/talks/controller/TalkController.java)
 * [뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드](https://blog.banksalad.com/tech/we-work-by-tech-spec/)
