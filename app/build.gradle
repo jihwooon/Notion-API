@@ -30,36 +30,45 @@ repositories {
 }
 
 dependencies {
+
     // Use JUnit Jupiter API for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
 
-    // AssertJ
-    testImplementation 'org.assertj:assertj-core:3.18.1'
+    // Spring Web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
 
-    // Use JUnit Jupiter Engine for testing.
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-
-    // This dependency is used by the application.
-    implementation 'com.google.guava:guava:29.0-jre'
+    //Spring Data
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     // Jackson for JSON.
     implementation 'com.fasterxml.jackson.core:jackson-core:2.11.3'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.3'
 
     // Lombok
-    compileOnly 'org.projectlombok:lombok:1.18.16'
-    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:4.3.1'
 
-    // Spring Web
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-
-    // Spring Validation
+    // validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
-    // Spring Data JPA
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Database
     runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client:2.7.2'
+
+    // AssertJ
+    testImplementation 'org.assertj:assertj-core:3.18.1'
+
+    // Test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // restdoc mockmvc
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+
+    // p6spy
+    implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
 
     // Spring Developer Tools
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
