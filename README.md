@@ -1,6 +1,7 @@
 # Notion API For 테크 스펙
 작성자: 안지환  
-마지막 수정일: 2022년 6월 28일
+마지막 수정일: 2022년 6월 28일  
+
 
 
 ## 요약 (Summary)
@@ -33,9 +34,10 @@ Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블�
 
 
 ## 마일스톤 (Milestones)
-* 22.06.28 : notion api 계정하기 - 완료 
-* 22.06.29 : Spring 환경 셋팅, MairaDB 셋팅
-* 22.06.30 : Notion api
+* 22.06.28 : notion api 계정 활성화하기 
+* 22.06.29 : Spring 환경 설정 [Spring library #2](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
+* 22.06.30 : Docker MairaDB 설정  
+* 22.07.01 : Notion api 연동 작업
 
 
 ## Reference
