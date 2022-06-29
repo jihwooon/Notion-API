@@ -3,11 +3,11 @@
 마지막 수정일: 2022년 6월 28일  
 
 ## 요약 (Summary)
-Notion에 작업한 내용을 개인 블로그에서도 실시간으로 연동 할 수 있는 개인 블로그 서비스를 제공합니다.
+Notion에 작업한 내용을 개인 블로그에서도 실시간으로 연동 할 수 있는 개인 블로그 서비스를 제공합니다.  
 Notion에서 제공하는 API을 호출 받아서 SpringBoot 통해서 개인 블로그 페이지에 전달 됩니다.
 
 ## 배경 (Background)
-Notion 이용하면서 기록 하던 내용을 내 개인 블로그에 실시간으로 연동이 되었으면 좋겠다는 아이디어가 떠올라서 진행하게 되었습니다.
+Notion 이용하면서 기록 하던 내용을 내 개인 블로그에 실시간으로 연동이 되었으면 좋겠다는 아이디어가 떠올라서 진행하게 되었습니다.  
 Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블로그에서 실시간 연동 할 수 있게 추후에 개발 할 예정입니다.
 
 ## 목표 (Goals)
@@ -27,8 +27,8 @@ Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블�
 
 
 ## 마일스톤 (Milestones)
-* 22.06.28 : notion api 계정 활성화하기 - 완료
-* 22.06.29 : [#2 Spring 환경 설정](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706) - 완료
+* 22.06.28 : [Notion api integration](https://developers.notion.com/)
+* 22.06.29 : [#2 Spring 환경 설정](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
 
 
 ## Reference
