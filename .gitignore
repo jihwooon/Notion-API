@@ -42,5 +42,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-/app/src/main/resources/
+secret.properties
 
