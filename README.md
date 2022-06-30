@@ -30,7 +30,6 @@ Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블�
 * 22.06.28 : [Notion api integration](https://developers.notion.com/)
 * 22.06.29 : [#2 Spring 환경 설정](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
 
-
 ## Reference
 * [Notion API](https://developers.notion.com/)
 * [뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드](https://blog.banksalad.com/tech/we-work-by-tech-spec/)
