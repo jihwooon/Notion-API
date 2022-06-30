@@ -29,6 +29,7 @@ Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블�
 ## 마일스톤 (Milestones)
 * 22.06.28 : [Notion api integration](https://developers.notion.com/)
 * 22.06.29 : [#2 Spring 환경 설정](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
+* 22.06.30 : [#7 ConfigurationProperties](https://github.com/jihwooon/Notion-API/issues/7)
 
 ## Reference
 * [Notion API](https://developers.notion.com/)
