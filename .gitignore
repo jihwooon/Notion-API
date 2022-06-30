@@ -7,6 +7,7 @@ build
 .idea
 
 HELP.md
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -42,3 +43,4 @@ bin/
 .vscode/
 
 secret.properties
+
