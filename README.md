@@ -1,6 +1,4 @@
 # Notion API For 테크 스펙
-작성자: 안지환  
-마지막 수정일: 2022년 6월 28일  
 
 ## 요약 (Summary)
 Notion에 작업한 내용을 개인 블로그에서도 실시간으로 연동 할 수 있는 개인 블로그 서비스를 제공합니다.  
@@ -27,8 +25,8 @@ Notion 뿐만 아니라 Conference, Jira, Trello 등 비슷한 서비스도 블�
 
 
 ## 마일스톤 (Milestones)
-* 22.06.28 : [Notion api integration](https://developers.notion.com/)
-* 22.06.29 : [#2 Spring 환경 설정](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
+* 22.06.28 : [#1 Notion api integration](https://developers.notion.com/)
+* 22.06.29 : [#2 Spring Setting](https://github.com/jihwooon/Notion-API/issues/2#issue-1287130706)
 * 22.06.30 : [#7 ConfigurationProperties](https://github.com/jihwooon/Notion-API/issues/7)
 
 ## Reference
