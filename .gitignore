@@ -41,3 +41,5 @@ bin/
 
 ### VS Code ###
 .vscode/
+
+secret.properties
