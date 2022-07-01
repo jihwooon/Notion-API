@@ -6,6 +6,7 @@ public abstract class Database {
     private boolean next_cursor;
     private boolean hasMore;
 
+
     public boolean getHasMore() {
         return hasMore;
     }
