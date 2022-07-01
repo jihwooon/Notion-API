@@ -17,7 +17,7 @@ class DatabaseControllerTest {
 
     @Test
     void getDataBases() throws Exception {
-        mockMvc.perform(get("/documents")
+        mockMvc.perform(get("/documents/notion")
                         .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
     }
