@@ -1,4 +1,4 @@
-package notion.databases.controller;
+package project.notion.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

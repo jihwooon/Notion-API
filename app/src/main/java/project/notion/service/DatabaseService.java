@@ -1,4 +1,4 @@
-package notion.databases.service;
+package project.notion.service;
 
 import org.springframework.stereotype.Service;
 

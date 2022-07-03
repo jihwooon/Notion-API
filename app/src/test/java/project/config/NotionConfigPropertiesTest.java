@@ -1,4 +1,4 @@
-package notion.config;
+package project.config;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

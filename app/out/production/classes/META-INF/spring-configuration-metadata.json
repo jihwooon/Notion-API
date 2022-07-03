@@ -4,6 +4,11 @@
       "name": "notion",
       "type": "notion.config.NotionConfigProperties",
       "sourceType": "notion.config.NotionConfigProperties"
+    },
+    {
+      "name": "project",
+      "type": "project.config.NotionConfigProperties",
+      "sourceType": "project.config.NotionConfigProperties"
     }
   ],
   "properties": [
@@ -26,6 +31,26 @@
       "name": "notion.database-id",
       "type": "java.lang.String",
       "sourceType": "notion.config.NotionConfigProperties"
+    },
+    {
+      "name": "project.api-url",
+      "type": "java.lang.String",
+      "sourceType": "project.config.NotionConfigProperties"
+    },
+    {
+      "name": "project.api-version",
+      "type": "java.lang.String",
+      "sourceType": "project.config.NotionConfigProperties"
+    },
+    {
+      "name": "project.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "project.config.NotionConfigProperties"
+    },
+    {
+      "name": "project.database-id",
+      "type": "java.lang.String",
+      "sourceType": "project.config.NotionConfigProperties"
     }
   ],
   "hints": []

@@ -1,4 +1,4 @@
-package notion.databases.domain;
+package project.notion.domain;
 
 public abstract class Database {
 

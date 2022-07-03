@@ -1,10 +1,10 @@
-package notion.config;
+package project.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
 
 @ConstructorBinding
-@ConfigurationProperties("notion")
+@ConfigurationProperties("project")
 public class NotionConfigProperties {
     private String apiUrl;
     private String apiVersion;

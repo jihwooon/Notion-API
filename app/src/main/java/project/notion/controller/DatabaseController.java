@@ -1,10 +1,10 @@
 //RestController
 //@RequestMapping 추가하기
 //DatabaseService -> Database
-package notion.databases.controller;
+package project.notion.controller;
 
-import notion.config.NotionConfigProperties;
-import notion.databases.service.DatabaseService;
+import project.config.NotionConfigProperties;
+import project.notion.service.DatabaseService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
