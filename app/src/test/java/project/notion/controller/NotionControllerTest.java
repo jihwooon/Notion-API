@@ -7,19 +7,22 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(NotionController.class)
-class DatabaseControllerTest {
+class NotionControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;
+    MockMvc mockMvc;
 
     @Test
-    void getDataBases() throws Exception {
-        mockMvc.perform(get("/documents/notion")
-                        .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk());
+    void getList() throws Exception {
+        mockMvc.perform(get("/document/notions")
+                        .contentType(MediaType.APPLICATION_JSON)
+                )
+                .andExpect(status().isOk())
+                .andDo(print());
     }
 
 }

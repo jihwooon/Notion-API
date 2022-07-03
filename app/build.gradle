@@ -78,6 +78,7 @@ dependencies {
     // FeignClient
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.10.RELEASE'
 
+
     // Spring Boot Test
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

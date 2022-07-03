@@ -1,8 +1,12 @@
 package project.config;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
 
+@Getter
+@Setter
 @ConstructorBinding
 @ConfigurationProperties("project")
 public class NotionConfigProperties {
@@ -18,35 +22,4 @@ public class NotionConfigProperties {
         this.databaseId = databaseId;
     }
 
-    public String getApiUrl() {
-        return apiUrl;
-    }
-
-    public String getApiVersion() {
-        return apiVersion;
-    }
-
-    public String getAuthToken() {
-        return authToken;
-    }
-
-    public String getDatabaseId() {
-        return databaseId;
-    }
-
-    public void setApiUrl(String apiUrl) {
-        this.apiUrl = apiUrl;
-    }
-
-    public void setApiVersion(String apiVersion) {
-        this.apiVersion = apiVersion;
-    }
-
-    public void setAuthToken(String authToken) {
-        this.authToken = authToken;
-    }
-
-    public void setDatabaseId(String databaseId) {
-        this.databaseId = databaseId;
-    }
 }
