@@ -1,4 +1,4 @@
-package notion.config;
+package notion.api.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;

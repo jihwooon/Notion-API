@@ -75,6 +75,9 @@ dependencies {
 
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
+    // FeignClient
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.0'
+
     // Spring Boot Test
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
