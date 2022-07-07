@@ -26,7 +26,6 @@ class NotionControllerTest {
                 )
                 .andExpect(status().isOk())
                 .andDo(print())
-                .andExpect(content().string(containsString("\"object\" : \"list\"")));
+                .andExpect(content().string(containsString("object\":\"list\",\"next_cursor\":false,\"has_more\":false")));
     }
-
 }
