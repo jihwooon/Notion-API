@@ -73,6 +73,7 @@ dependencies {
     // Spring Developer Tools
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
+    //configuration
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
     // FeignClient

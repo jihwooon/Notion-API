@@ -1,8 +1,14 @@
 package project.notion.client;
 
-import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
+import project.notion.service.DatabaseService;
 
-@FeignClient(url = "https://api.notion.com", name = "NotionApiClient")
-public interface NotionClient {
+@Component
+public class NotionClient {
 
+    public final DatabaseService databaseService;
+
+    public NotionClient(DatabaseService databaseService) {
+        this.databaseService = databaseService;
+    }
 }

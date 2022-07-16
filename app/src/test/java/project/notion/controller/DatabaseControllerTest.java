@@ -12,14 +12,15 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(NotionController.class)
-class NotionControllerTest {
+@WebMvcTest(DatabaseController.class)
+class DatabaseControllerTest {
 
     @Autowired
     MockMvc mockMvc;
 
     @Test
     void getList() throws Exception {
+
         mockMvc.perform(get("/documents/notions")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\"object\" : \"list\"}")
@@ -27,5 +28,7 @@ class NotionControllerTest {
                 .andExpect(status().isOk())
                 .andDo(print())
                 .andExpect(content().string(containsString("object\":\"list\",\"next_cursor\":false,\"has_more\":false")));
+
     }
+
 }

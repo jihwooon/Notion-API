@@ -8,4 +8,4 @@ notion:
   database-id: 828b4bab95f0409eb6326d31c3bb3682
 
 server:
-  port: 8081
+  port: 8082
