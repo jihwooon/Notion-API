@@ -1,31 +1,31 @@
 {
   "groups": [
     {
-      "name": "notion",
-      "type": "notion.config.NotionConfigProperties",
-      "sourceType": "notion.config.NotionConfigProperties"
+      "name": "project",
+      "type": "project.config.NotionConfigProperties",
+      "sourceType": "project.config.NotionConfigProperties"
     }
   ],
   "properties": [
     {
-      "name": "notion.api-url",
+      "name": "project.api-url",
       "type": "java.lang.String",
-      "sourceType": "notion.config.NotionConfigProperties"
+      "sourceType": "project.config.NotionConfigProperties"
     },
     {
-      "name": "notion.api-version",
+      "name": "project.api-version",
       "type": "java.lang.String",
-      "sourceType": "notion.config.NotionConfigProperties"
+      "sourceType": "project.config.NotionConfigProperties"
     },
     {
-      "name": "notion.auth-token",
+      "name": "project.auth-token",
       "type": "java.lang.String",
-      "sourceType": "notion.config.NotionConfigProperties"
+      "sourceType": "project.config.NotionConfigProperties"
     },
     {
-      "name": "notion.database-id",
+      "name": "project.database-id",
       "type": "java.lang.String",
-      "sourceType": "notion.config.NotionConfigProperties"
+      "sourceType": "project.config.NotionConfigProperties"
     }
   ],
   "hints": []
